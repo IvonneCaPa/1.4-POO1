@@ -18,7 +18,10 @@
         }
     }
 
+    // Crear instancia
     $empleado = new employee();
+    
+    // Llamar metodos
     $empleado -> initialize("juan", 1000);
     echo $empleado -> print() . PHP_EOL;
 ?>
