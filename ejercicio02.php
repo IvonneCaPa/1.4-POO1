@@ -1,5 +1,5 @@
 <?php
-    class shape{
+    class Shape{
         public $height;
         public $width;
 
@@ -10,7 +10,7 @@
         }
     }
 
-    class triangle extends shape{
+    class Triangle extends Shape{
         public function area() : string {
             $area = $this -> width * $this -> height / 2;
             return "el area del triangulo es $area";
